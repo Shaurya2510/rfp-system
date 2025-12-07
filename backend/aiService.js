@@ -45,7 +45,7 @@ async function generateStructuredRFP(rawText) {
         .replace(/^\s*Here.*?:/i, "")
         .trim();
 
-    // Extract the first JSON object only (with regex)
+    // Extract the first JSON object only 
     const jsonMatch = output.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
         return { error: "AI_PARSE_ERROR", raw_output: output };
