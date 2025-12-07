@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import CreateRfp from "./pages/CreateRFP";
+import CreateRfp from "./pages/CreateRfp";
 import Vendors from "./pages/Vendors";
 import SendRfp from "./pages/SendRfp";
 import Proposals from "./pages/Proposals";
